@@ -9,14 +9,14 @@ html{
 }
 
 /* MENU */
-header{ 
+header{
   background:rgb(1, 1, 42);
  height:450px; width: 100%;
 
- } 
+ }
 
 /* p="LAURINE" */
- nav p:first-child{position:absolute; 
+ nav p:first-child{position:absolute;
   top: 30px;
   left: 30px;
   font-size:2em;
@@ -24,16 +24,16 @@ header{
   font-weight: 500;
   color:white;
   letter-spacing: 5px;
-  
-} 
-
-/* DISPOSITION DU MENU*/
-nav > ul li {
-display: inline-block;   
 
 }
 
-nav ul{position:relative; 
+/* DISPOSITION DU MENU*/
+nav > ul li {
+display: inline-block;
+
+}
+
+nav ul{position:relative;
 float: right;
 top:30px;
 right:30px;
@@ -66,7 +66,7 @@ nav > ul  li >a:hover{
   color: #e6b209;
   background: rgb(180, 180, 180);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;   
+  -webkit-text-fill-color: transparent;
   font-size:1.3em;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
@@ -95,51 +95,51 @@ nav > ul  li >a:hover{
 @media screen and (max-width:1000px){
 
   /* PLACEMENTS NAVIGATION ET LANGUES */
-  
+
     .navbar__links{
       top:14vh;
     }
-  
+
     .navbar__links{
       overflow: hidden;
       flex-direction:column;
-      width:0; 
+      width:0;
       height:169vh;
       position:absolute;
-      right:0; 
-      background: rgb(4, 1, 36); 
+      right:0;
+      background: rgb(4, 1, 36);
       transition:all 0.5s ease-in-out;
     }
     .show-nav .navbar__links {
-       width:100%; 
+       width:100%;
     }
-    
-   
+
+
   /* LANGUES    */
-  .navbar details{ 
+  .navbar details{
     position: absolute;
     right:18%;
   }
 
-  
+
   /* LES a DU MENU NAVIGATION */
     .navbar__link > a {
       display:block;
       padding:1rem;
       font-size:2rem;
-      transition:all 0.4s ease-in-out;      
+      transition:all 0.4s ease-in-out;
     }
-    
+
     .navbar__link > a:first-child{
       margin-top:10px;
-  
+
     }
-  
+
     .navbar__link > a:hover{
       padding-left:2rem;
       letter-spacing:5px;
     }
-  
+
   /* BOUTON BURGER    */
     .burger{
       display:block;
@@ -162,12 +162,12 @@ nav > ul  li >a:hover{
       border-radius:3px;
       transition:all 0.5s ease-in-out;
     }
-    
+
     .show-nav .bar{
       width:0;
       background:transparent;
     }
-    
+
     .bar::before, .bar::after {
       content:"";
       width:45px;
@@ -183,19 +183,19 @@ nav > ul  li >a:hover{
     }
     .bar::after{
        transform:translateY(12px);
-      
+
     }
-  
+
     .show-nav .bar::before{
       transform:rotate(45deg);
     }
     .show-nav .bar::after{
       transform:rotate(-45deg);
     }
-    
+
   }
 
-  
+
   /* TITRE DANS HEADER */
    header h1{
           position:absolute;
@@ -208,7 +208,7 @@ nav > ul  li >a:hover{
           letter-spacing: 0.2em;
           width: 90%;
           }
-  
+
   header h2{position:absolute;
           font-family: 'Nothing You Could Do', cursive;
           top:320px;
@@ -217,8 +217,8 @@ nav > ul  li >a:hover{
           font-size: 1.7em;
           color: white;
           font-weight:lighter;
-          width: 90%;         
-        } 
+          width: 90%;
+        }
 
 /* TITRE DES SECTIONS */
 article > h2{
@@ -228,7 +228,7 @@ article > h2{
               margin-left: 90px;
               font-size: 3vmax;
               margin-bottom: 70px;
-              letter-spacing: 4px;  
+              letter-spacing: 4px;
             }
 
 /* TRAIT A COTE DES TITRES  */
@@ -239,29 +239,29 @@ article > h2{
         background-color:#072142;
         border: 1.5px solid #072142;
         border-radius:5px;
-        width: 70px;  
-      } 
+        width: 70px;
+      }
 
 /* CHIFFRE DANS LE TITRE */
 h2 > span {color:rgb(194, 4, 4);
           font-family: 'Poppins', sans-serif;
           font-weight:lighter;
-           margin-right: 20px;} 
+           margin-right: 20px;}
 
 /* SECTION */
 section:nth-child(2){
                       position: relative;
-                      top:20vh; 
+                      top:20vh;
                     }
 
 section:nth-child(3){
                       position: relative;
-                      top:40vh; 
+                      top:40vh;
                     }
 
 section:nth-child(4){
                       position: relative;
-                      top:60vh; 
+                      top:60vh;
                     }
 
  /* SECTION ILLUSTRATOR IMAGES*/
@@ -292,9 +292,9 @@ h2 ~ p {
         font-weight: normal;
         font-family: 'Poppins', sans-serif;
 }
- 
+
 /* IMAGE 1 PHOTOSHOP */
-.pieton{ 
+.pieton{
         width:390px;
         height:490px;
         margin-bottom:40px;}
@@ -302,13 +302,13 @@ h2 ~ p {
 .pieton:nth-of-type(2)
 {
   background-size: 390px 490px;
-  background-image: url("../adobe/Photoshop/photo_truque.jpg");
+  background-image: url("../adobe/photoshop/photo_truque.jpg");
   background-position: center;
 }
 
 .pieton:nth-of-type(2):hover
 {
-  background-image: url("../adobe/Photoshop/photo_truque_original.jpg");
+  background-image: url("../adobe/photoshop/photo_truque_original.jpg");
 }
 
 /* IMAGE 2 PHOTOSHOP */
@@ -319,17 +319,17 @@ h2 ~ p {
 .reine:nth-of-type(3)
 {
   background-size: 390px 490px;
-  background-image: url("../adobe/Photoshop/reine.jpg");
+  background-image: url("../adobe/photoshop/reine.jpg");
   background-position: center;
 }
 
 .reine:nth-of-type(3):hover
                           {
-                            background-image: url("../adobe/Photoshop/reine_original.jpg");
+                            background-image: url("../adobe/photoshop/reine_original.jpg");
                           }
 
-/* IMAGE 3 PHOTOSHOP */                          
-.composition{ 
+/* IMAGE 3 PHOTOSHOP */
+.composition{
           width:390px;
           height:490px;
         }
@@ -337,18 +337,18 @@ h2 ~ p {
 .composition:nth-of-type(4)
                       {
                         background-size: 390px 490px;
-                        background-image: url("../adobe/Photoshop/image_surrealiste.jpg");
+                        background-image: url("../adobe/photoshop/image_surrealiste.jpg");
                         background-position: center;
                       }
 
-.composition_2{ 
+.composition_2{
   width:434px;
   height:350px;
 }
-  
+
 .composition_2:nth-of-type(5) {
                               background-size: 490px 360px;
-                              background-image: url("../adobe/Photoshop/arbre_oiseau.jpg");
+                              background-image: url("../adobe/photoshop/arbre_oiseau.jpg");
                               background-position: center;
                             }
 
@@ -369,7 +369,7 @@ footer{
         transform: translateY(-50%);
         left:3px;
       }
-      
+
       .btn {
       display: inline-block;
       width: 70px;
@@ -380,25 +380,25 @@ footer{
       color: #fefeff;
       overflow:hidden;
       position: relative;
-      
+
       }
-      
+
       .btn:active{
-        top: 0.5vh;     
+        top: 0.5vh;
       }
-      
+
       .btn i {
       margin-left:22px;
       line-height: 68px;
       font-size:33px;
       transition: 0.2s linear;
       }
-      
+
       .btn:hover i {
             transform: scale(1.3);
             color:#f1f1f1;
       }
-      
+
       .btn::before{
           content:"";
           position:absolute;
@@ -409,7 +409,7 @@ footer{
           left:-110%;
           top: 90%;
       }
-      
+
       .btn:hover::before{
                 animation: aaa 0.7s 1;
                 top:-10%;
@@ -430,11 +430,11 @@ footer{
         color:white;
         font-size:25px;
       }
-      
+
       .remonter:active{
            margin-bottom: -3px;
       }
-      
+
       @keyframes aaa {
         0%{
           left:-110%;
