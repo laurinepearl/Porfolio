@@ -49,12 +49,12 @@ nav > ul li {
 nav ul {
 	position: relative;
 	float: right;
-	top: 110px;
+	top: 30px;
 	right: 30px;
 	z-index: 2;
 }
 
-nav ul>li {
+nav ul > li {
 	margin-left: 38px;
 }
 
@@ -78,9 +78,13 @@ nav > ul li > a:hover {
 }
 
 /* MEDIA QUERIES POUR FAIRE LE MENU BURGER */
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1280px) {
 
 	/* PLACEMENTS NAVIGATION*/
+	nav ul {
+		top: 110px;
+	}
+
 	.navbar__links {
 		flex-direction: column;
 		width: 0;
@@ -166,7 +170,6 @@ nav > ul li > a:hover {
 
 	.bar::after {
 		transform: translateY(12px);
-
 	}
 
 	.show-nav .bar::before {
@@ -176,7 +179,6 @@ nav > ul li > a:hover {
 	.show-nav .bar::after {
 		transform: rotate(-45deg);
 	}
-
 }
 
 /* SECTION 1 */
@@ -411,7 +413,7 @@ section h4 {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.section1 {
 		padding: 3rem;
 		flex-direction: column;
