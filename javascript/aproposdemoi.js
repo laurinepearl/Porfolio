@@ -1,22 +1,22 @@
 let indice = 0;
 let sources = [
-    "image/fille_1",
-    "image/hibou",
-    "image/fille_fleur"
+    "image/fille_1.jpeg",
+    "image/hibou.png",
+    "image/fille_fleur.jpeg"
 ];
 
 let indice_2 = 0;
 let sources_2 = [
-    "image/st_jean_criques_du_rouvier",
-    "image/nancy_stanislas_3",
-    "image/portugal_pont",
-    "image/nice_massena"
+    "image/st_jean_criques_du_rouvier.jpg",
+    "image/nancy_stanislas_3.jpg",
+    "image/portugal_pont.jpg",
+    "image/nice_massena.jpg"
 ];
 
 let indice_3 = 0;
 let sources_3 = [
-    "image/livre_viking",
-    "image/livre_nordique"
+    "image/livre_viking.jpg",
+    "image/livre_nordique.jpg"
 ];
 
 function next()
