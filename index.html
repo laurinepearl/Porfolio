@@ -1,61 +1,165 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/accueil.css" />
-		<link rel="stylesheet" href="css/reset.css" />
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="styles.css" />
 		<script src="https://kit.fontawesome.com/0c87a70838.js" crossorigin="anonymous"></script>
 		<title>Portfolio Ferreira Laurine</title>
 	</head>
 	<body>
 		<header>
-			<nav class="navbar">
-				<p class="navbar__logo">LAURINE</p>
+			<nav class="navbar" role="navigation">
+				<div class="navbar__logo">Laurine</div>
+
 				<ul class="navbar__links">
-					<li class="navbar__link"><a href="index.html">Accueil</a></li>
-					<li class="navbar__link"><a href="aproposdemoi.html">A propos de moi</a></li>
-					<li class="navbar__link"><a href="realisations.html">Réalisations</a></li>
-					<li class="navbar__link"><a href="contact.html">Contact</a></li>
+					<li class="navbar__link first"><a href="#home">Accueil</a></li>
+					<li class="navbar__link second"><a href="#propos">À propos</a></li>
+					<li class="navbar__link third"><a href="#projet">Projets</a></li>
+					<li class="navbar__link four"><a href="#skills">Compétences</a></li>
+					<li class="navbar__link five"><a href="https://www.linkedin.com/in/laurine-ferreira-83820a1b9/"><img src="images/linkedin.png" alt="" class="linkedin"></a></li>
 				</ul>
+
 				<button class="burger">
-				<span class="bar"></span>
+					<span class="bar"></span>
 				</button>
 			</nav>
 		</header>
-		<main>
-			<section class="section1">
-				<article>
-					<p>Bonjour,</p>
-					<h1>Je suis Laurine</h1>
-					<h3>Etudiante à la Licence Professionnelle IMAPP.</h3>
-					<a href="laurine_ferreira_cv.pdf">
-						<button class="second"
-							type="button">
-							<p>Télécharger mon CV</p>
-						</button>
-					</a>
+
+		<section class="content" id="home">
+			<article>
+				<div class="moi">
+					<h1>Bonjour, je suis <span>Laurine</span></h1>
+
+					<p>Étudiante en 1ère année de Master Innovation création et communication digitale.</p>
+
+					<a href="https://drive.google.com/file/d/1niRXa6LTRMKpgCKBiyqjH9WHUfKhM-Dh/view?usp=share_link">Télécharger mon CV</a>
+				</div>
+				<div class="images">
+					<img src="images/blob.svg" class="blob">
+					<img src="images/fille2.png" class="fille">
+				</div>
+			</article>
+		</section>
+
+		<section class="about" id="propos">
+			<div class="main">
+				<img src="images/fille3.jpg">
+
+				<div class="about-text">
+					<h2>À propos de moi</h2>
+
+					<h5>Étudiante en <span>création graphique</span></h5>
+
+					<p>
+						Passionnée par l'art depuis toujours, j'ai trouvé ma voie dans la création digitale, un domaine qui me permet d'exprimer ma créativité
+						en rendant vivant les envies de chaque clients. Curieuse et autoditacte de nature, je m'intéresse à toute forme de création tel qu'elle soit.
+						Cela peut commencer par le web design, passant par l'infographie et la photographie ou encore au graphisme en règle générale.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="projet" id="projet">
+			<div class="box">
+				<h1>Mes projets</h1>
+
+				<h2>Website</h2>
+
+				<article class="box1">
+					<div class="baraudi">
+						<img src="images/bar_auditorium.png" class="image">
+
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+
+						<p>
+							Ce site internet à été conçu sur Wordpress dans le cadre d'un projet d'étude lors de ma 1ère année de Master. Le but été de créer un site pour le Bar Auditorium
+							en respectant les exigences du client tout en renforçant nos compétences dans le développement web.
+						</p>
+
+						<p class="lien">Pour en savoir plus : <a href="https://polaire-studio.com/" target="_blank">Bar Auditorium </a></p>
+					</div>
+
+					<div class="manga">
+						<img src="images/manga_paradise.png">
+
+						<p>
+							Manga Paradise est une association permettant de réunir les jeunes autour d'un même centre d'intérêt. Ce projet a été réalisé en dehors
+							de mes études à la suite d'un cours en création graphique où j'ai pu rencontrer le fondateur de l'association. A la suite d'un échange
+							je me suis chargé de créer sur Wordpress le site internet de l'association avec l'aide d'un ami développeur également.
+						</p>
+
+						<p class="lien2">Pour en savoir plus : <a href="https://manga-paradise.fr/" target="_blank">Manga Paradise </a></p>
+					</div>
 				</article>
+
 				<article>
-					<img src="adobe/illustrator/illustration_accueil.png" class="illustrator" >
+					<h2>Photoshop</h2>
+
+					<div class="box2">
+						<div class="polaroid">
+							<img src="images/photomontage_Laurine_Ferreira.jpg" class="portrait">
+
+							<div class="container">
+								<p>Mi-zombie mi-humaine</p>
+							</div>
+						</div>
+
+						<div class="polaroid">
+							<img src="images/newyork_baleine.jpg" class="baleine">
+
+							<div class="container">
+								<p>Les baleines de New-York</p>
+							</div>
+						</div>
+					</div>
 				</article>
-			</section>
-			<section class="section2">
-				<img src="https://i.goopics.net/iflp7u.jpg">
-				<div class="border"></div>
+
 				<article>
-					<h4>A propos de moi</h4>
-					<p>Bonjour, je m'appelle Laurine Ferreira, j'ai 21 ans et j'habite à Nice. Passionnée d'art depuis toujours, j'ai trouvé ma voie dans le monde du design et du web. Je fais mes études à la LP IMApp à Nice(informatique multimédia appliquée) et je recherche un stage de 12 semaines (minimum) dans le web design particulièrement.</p>
+					<h2>Illustrator</h2>
+
+					<div class="box3">
+						<div class="polaroid2">
+							<img src="images/illustration_interieur.png">
+
+							<div class="container2">
+								<p>Chalet de montagnes</p>
+							</div>
+						</div>
+
+						<div class="polaroid2">
+							<img src="images/CHAT_ROUX.png" class="chat">
+
+							<div class="container2">
+								<p>Chat rêveur</p>
+							</div>
+						</div>
+					</div>
 				</article>
-			</section>
-		</main>
-		<a class="remonter" href="#"><i class="fas fa-chevron-up"></i></a>
-		<footer>
-			<a class="btn" href="https://www.linkedin.com/in/laurine-ferreira-83820a1b9/">
-			<i class="fab fa-linkedin-in"></i></a>
-			<a class="btn" href="https://www.facebook.com/laurine.ferreira.543">
-			<i class="fab fa-facebook-f"></i></a>
-		</footer>
-		<script src="javascript/main.js"></script>
+			</div>
+		</section>
+
+		<section class="competences" id="skills">
+			<h1>Mes compétences</h1>
+
+			<div>
+				<img src="images/codage.png">
+				<img src="images/photoshop.png">
+				<img src="images/illustrator.png">
+				<img src="images/indesign.png">
+				<img src="images/premiere.png">
+				<img src="images/figma.png">
+				<img src="images/wordpress.png">
+				<img src="images/office.png">
+			</div>
+		</section>
+
+		<section class="contact">
+			<div></div>
+		</section>
+
+		<script type="text/javascript" src="scripts.js"></script>
 	</body>
 </html>
