@@ -301,8 +301,8 @@ span {
 }
 
 .about img {
-	height: auto;
-	width: 400px;
+	width: 100%;
+	max-width: 400px;
 }
 
 .about-text {
@@ -358,7 +358,7 @@ span {
 	font-size: 3em;
 	font-family: "poppins";
 	font-weight: bold;
-	margin: 30px auto;
+	margin: 30px 1rem;
 	text-align: center;
 	margin-bottom: 2em;
 }
@@ -444,6 +444,7 @@ span {
 }
 
 .box2 img {
+	width: 100%;
 	margin-top: 25px;
 }
 
@@ -493,11 +494,13 @@ div .container2 p {
 }
 
 .box3 img {
+	width: 100%;
 	margin-top: 25px;
-	height: 500px;
+	max-height: 500px;
 }
 
-.chat {
+.box3 img.chat {
+	width: calc(100% - 40px);
 	padding-right: 20px;
 	padding-left: 20px;
 }
@@ -510,7 +513,8 @@ div .container2 p {
 	font-size: 3em;
 	font-family: "poppins";
 	font-weight: bold;
-	margin: 30px auto;
+	margin: 30px 1rem;
+	hyphens: auto;
 	text-align: center;
 	margin-bottom: 2em;
 }
