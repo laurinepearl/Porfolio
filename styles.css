@@ -59,7 +59,7 @@ header {
 }
 
 .linkedin {
-	width: 22px;
+	font-size: 1.5rem;
 }
 
 /* Small device */
@@ -86,7 +86,7 @@ header {
 	}
 
 	.navbar__link {
-		color: #fff;
+		color: white;
 	}
 
 	.navbar__link>a {
