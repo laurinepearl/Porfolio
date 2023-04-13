@@ -86,7 +86,8 @@ header {
 		height: calc(100vh - 5rem - 3rem);
 	}
 
-	.content article {
+	section.content article {
+		gap: 0;
 		margin-top: 3rem;
 	}
 
@@ -114,24 +115,15 @@ header {
 	/* Images */
 	div.images {
 		width: 100%;
+		height: calc(50% - 3rem - 5rem); /* 50% de la hauteur de la section - 3rem de padding - 4rem de la taille de l'en-tête - 3rem de la marge du contenu */
 	}
 
 	div.images .blob {
-		top: 0;
-		transform: none;
+		width: 100%;
 	}
 
 	div.images .fille {
-		top: 3rem;
-		transform: none;
-	}
-
-	div.images:hover .blob {
-		top: -1rem;
-	}
-
-	div.images:hover .fille {
-		right: calc(25% + 1rem);
+		width: 50%;
 	}
 
 	/* Toggle menu */
@@ -271,10 +263,6 @@ span {
 	position: relative;
 }
 
-.blob {
-	position: absolute;
-}
-
 .moi p {
 	color: #555;
 	line-height: 22px;
@@ -299,30 +287,32 @@ span {
 
 .images img {
 	position: absolute;
-	transform: translateY(-50%);
-	transition: top 1s, right 1s, left 1s;
+	transform: translate(-50%, -50%);
+	transition: top 1s, left 1s;
 }
 
 .images .blob {
 	top: 50%;
+	left: 50%;
+	width: 100%;
+	position: absolute;
 	max-height: 590px;
 	max-width: 600px;
 }
 
 .images .fille {
-	top: 55%;
-	right: 25%;
-	width: 50%;
+	top: 50%;
+	left: 50%;
 	max-height: 450px;
 	max-width: 350px;
 }
 
 .images:hover .blob {
-	top: calc(50% - 3rem);
+	top: 40%;
 }
 
 .images:hover .fille {
-	right: calc(25% + 3rem);
+	left: 40%;
 }
 
 .about {
