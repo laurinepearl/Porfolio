@@ -118,10 +118,6 @@ header {
 		height: calc(50% - 3rem - 5rem); /* 50% de la hauteur de la section - 3rem de padding - 4rem de la taille de l'en-tête - 3rem de la marge du contenu */
 	}
 
-	div.images .blob {
-		width: 100%;
-	}
-
 	div.images .fille {
 		width: 50%;
 	}
@@ -292,16 +288,16 @@ span {
 }
 
 .images .blob {
-	top: 50%;
+	top: 45%;
 	left: 50%;
-	width: 100%;
+	width: 90%;
 	position: absolute;
 	max-height: 590px;
 	max-width: 600px;
 }
 
 .images .fille {
-	top: 50%;
+	top: 55%;
 	left: 50%;
 	max-height: 450px;
 	max-width: 350px;
@@ -312,7 +308,7 @@ span {
 }
 
 .images:hover .fille {
-	left: 40%;
+	left: 45%;
 }
 
 .about {
