@@ -465,31 +465,20 @@ span {
 
 .box2 img {
 	width: 100%;
-	margin-top: 25px;
-}
-
-.baleine {
-	height: 300px;
-	width: 600px;
+	height: 100%;
+	max-height: 500px;
 }
 
 .polaroid {
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-bottom: 35px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding: 20px;
 }
 
 div .container {
 	text-align: center;
 	padding: 20px 20px;
-}
-
-.polaroid2 {
-	background-color: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 35px;
 }
 
 div .container2 {
@@ -503,26 +492,6 @@ div .container p {
 
 div .container2 p {
 	font-size: 1.2em;
-}
-
-.box3 {
-	gap: 2rem;
-	margin: 2rem;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.box3 img {
-	width: 100%;
-	margin-top: 25px;
-	max-height: 500px;
-}
-
-.box3 img.chat {
-	width: calc(100% - 40px);
-	padding-right: 20px;
-	padding-left: 20px;
 }
 
 .competences {
