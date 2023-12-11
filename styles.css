@@ -430,10 +430,6 @@ span {
     display: inline-block;
 }
 
-.siteweb:hover {
-	background: #efaf00cd;
-}
-
 .box2 {
 	gap: 2rem;
 	margin: 2rem;
