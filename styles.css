@@ -498,8 +498,8 @@ div .container2 p {
   width: 80%;
   max-width: 800px;
   margin: 50px auto;
-  border: 1px solid #ccc;
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-track {
@@ -508,13 +508,13 @@ div .container2 p {
 }
 
 .carousel-slide {
-  flex: 0 0 30%; /* Show three slides at a time with 5% space between */
-  margin-right: 2%; /* Add space between slides */
+  flex: 0 0 25%; /* Quatre images à la fois */
 }
 
 img {
   width: 100%;
   height: auto;
+  border-radius: 8px; /* Ajouter des coins arrondis aux images */
 }
 
 .carousel-prev,
