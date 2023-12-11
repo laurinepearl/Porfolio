@@ -18,6 +18,7 @@ navbarLinks.forEach( link =>
 } );
 
 let currentIndex = 0;
+const slidesToShow = 3; // Modifier le nombre d'images affichées à la fois
 
 function showSlide(index) {
   const track = document.getElementById("carouselTrack");
@@ -35,9 +36,10 @@ function showSlide(index) {
 }
 
 function prevSlide() {
-  showSlide(currentIndex - 1);
+  showSlide(currentIndex - slidesToShow);
 }
 
 function nextSlide() {
-  showSlide(currentIndex + 1);
+  showSlide(currentIndex + slidesToShow);
 }
+
