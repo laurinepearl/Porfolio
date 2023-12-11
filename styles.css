@@ -406,7 +406,7 @@ span {
 
 .text-container {
     text-align: center;
-  background-color: rgb(95, 98, 197);
+  background-color: rgb(123, 127, 255);
   color: white;
   padding: 20px;
   border-bottom-left-radius: 20px;
@@ -430,6 +430,10 @@ background: #efb000;
     font-family: "poppins";
     display: inline-block;
     border-radius: 5px;
+}
+
+.siteweb{
+	background: #efaf00cd;
 }
 
 .box2 {
