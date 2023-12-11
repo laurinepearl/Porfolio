@@ -468,7 +468,13 @@ div .container2 p {
 	font-size: 1.2em;
 }
 
-
+competence {
+	font-size: 2em;
+    font-family: "nothing you could do";
+    font-weight: bold;
+    margin: 40px auto;
+    text-align: center;
+}
 .carousel-container {
   position: relative;
   overflow: hidden;
