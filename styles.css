@@ -468,6 +468,14 @@ div .container2 p {
 	font-size: 1.2em;
 }
 
+.comp {
+	font-size: 3em;
+    font-family: "poppins";
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2em;
+	
+}
 .carousel-container {
   position: relative;
   overflow: hidden;
@@ -476,14 +484,6 @@ div .container2 p {
   margin: 50px auto;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.competence {
-	font-size: 3em;
-    font-family: "poppins";
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 2em;
 }
 
 .carousel-track {
