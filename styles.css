@@ -401,9 +401,6 @@ span {
 }
 
 .box1 > div {
-	flex: 1 1 300px;
-	display: flex;
-	flex-direction: column;
 	gap: 1rem;
 }
 
@@ -416,7 +413,7 @@ span {
 
 .text-container {
     text-align: center;
-  background-color: purple;
+  background-color: rgb(95, 98, 197);
   color: white;
   padding: 20px;
   border-bottom-left-radius: 20px;
@@ -425,13 +422,13 @@ span {
 
 .manga p {
 	font-family: "Poppins";
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
   margin-bottom: 15px;
 }
 
 .siteweb {
-  background-color: #2ecc71;
+  background-color: #f6bf27;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
