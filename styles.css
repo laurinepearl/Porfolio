@@ -491,3 +491,55 @@ div .container2 p {
 	margin-bottom: 1rem;
 	margin-left: 30px;
 }
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  flex: 0 0 30%; /* Show three slides at a time with 5% space between */
+  margin-right: 2%; /* Add space between slides */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background-color: #2980b9;
+}
