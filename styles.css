@@ -404,13 +404,6 @@ span {
 	gap: 1rem;
 }
 
-.manga > div
-{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .text-container {
     text-align: center;
   background-color: rgb(95, 98, 197);
@@ -424,8 +417,8 @@ span {
 	font-family: "Poppins";
 	font-size: 15px;
 	line-height: 28px;
-	text-align: center;
-  	margin-bottom: 15px;
+	text-align: justify;
+  	margin-bottom: 30px;
 }
 
 .siteweb {
@@ -436,7 +429,6 @@ background: #efb000;
     color: #fff;
     font-family: "poppins";
     display: inline-block;
-    margin: 30px 0;
     border-radius: 5px;
 }
 
