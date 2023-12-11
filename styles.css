@@ -423,8 +423,9 @@ span {
 .manga p {
 	font-family: "Poppins";
 	font-size: 15px;
+	line-height: 28px;
 	text-align: center;
-  margin-bottom: 15px;
+  	margin-bottom: 15px;
 }
 
 .siteweb {
