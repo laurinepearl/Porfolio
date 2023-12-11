@@ -406,7 +406,7 @@ span {
 
 .text-container {
     text-align: center;
-  background-color: rgb(123, 127, 255);
+  background-color: #C5D6FF;
   color: white;
   padding: 20px;
   border-bottom-left-radius: 20px;
@@ -432,7 +432,7 @@ background: #efb000;
     border-radius: 5px;
 }
 
-.siteweb{
+.siteweb:hover{
 	background: #efaf00cd;
 }
 
