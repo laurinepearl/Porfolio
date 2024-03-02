@@ -390,7 +390,7 @@ span {
 }
 
 .carousel-slide {
-  flex: 0 0 10%; /* Cinq images à la fois */
+  flex: 0 0 20%; /* Cinq images à la fois */
   margin-right: 2%; /* Ajouter de l'espace entre les images */
 }
 
