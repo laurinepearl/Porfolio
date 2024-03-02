@@ -336,7 +336,7 @@ span {
 
 .about-text h1 {
 	color: #fff;
-	font-size: 4em;
+	font-size: 3em;
 	font-family: "poppins";
 	font-weight: bolder;
 	margin-bottom: 20px;
@@ -363,15 +363,15 @@ span {
 	font-size: 15px;
 	font-family: "poppins";
 	text-align: justify;
-	margin-bottom: 45px;
+	margin-bottom: 55px;
 }
 
 .comp {
 	font-size: 2em;
     font-family: "nothing you could do";
     font-weight: bold;
+	color: #fff;
     text-align: center;
-    margin-bottom: 2em;
 	
 }
 .carousel-container {
@@ -390,7 +390,7 @@ span {
 }
 
 .carousel-slide {
-  flex: 0 0 14%; /* Cinq images à la fois */
+  flex: 0 0 10%; /* Cinq images à la fois */
   margin-right: 2%; /* Ajouter de l'espace entre les images */
 }
 
