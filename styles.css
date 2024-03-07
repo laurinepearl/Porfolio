@@ -205,8 +205,8 @@ header {
 		display: block;
 		content: "";
 		width: 0;
-		height: 1px;
-		background: black;
+		height: 3px;
+		background: #787BCE;
 		transition: width .4s;
 	}
 
