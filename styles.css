@@ -452,7 +452,7 @@ img {
 .box1 {
 	flex-wrap: wrap;
 	gap: 3rem;
-	margin: 5rem;
+	margin: 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
