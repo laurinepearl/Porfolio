@@ -457,15 +457,12 @@ img {
 	width: 80%;
 	margin: 0 auto;
 }
-.box1 img {
-	width: 100%;
-}
 
 .text-container {
     text-align: center;
     background-color: #787BCE;
     color: white;
-    padding: 20px;
+    padding: 20px; /* le container du texte explicatif */
 } 
 
 .manga p {
@@ -473,7 +470,7 @@ img {
 	font-size: 15px;
 	line-height: 28px;
 	text-align: justify;
-  	margin-bottom: 30px;
+  	margin-bottom: 30px;	/* texte exmplicatif */
 }
 
 .siteweb {
@@ -482,7 +479,7 @@ img {
 	margin-bottom: 20px;
     color: #fff;
     font-family: "poppins";
-    display: inline-block;
+    display: inline-block;  /* Bouton voir plus dans la section association */
 }
 
 .box2 {
