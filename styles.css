@@ -116,6 +116,7 @@ header {
 	div.images {
 		width: 100%;
 		height: calc(50% - 3rem - 5rem); /* 50% de la hauteur de la section - 3rem de padding - 4rem de la taille de l'en-tête - 3rem de la marge du contenu */
+		z-index: -1;
 	}
 
 	div.images .fille {
