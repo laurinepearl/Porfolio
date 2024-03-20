@@ -353,7 +353,7 @@ span {
 }
 
 .about-text span {
-	color: rgb(45, 50, 186);
+	color: #5F62C5;
 }
 
 .about-text p {
@@ -527,7 +527,7 @@ div .container2 p {
     font-size: 20px;
     border: none;
     outline: none;
-    background-color: #007bff;
+    background-color: #5F62C5;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -535,7 +535,7 @@ div .container2 p {
 }
 
 #scrollToTopBtn:hover {
-    background-color: #0056b3;
+    background-color: #4B4FBE;
 }
 
 
