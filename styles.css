@@ -437,12 +437,14 @@ img {
 	font-weight: bold;
 	margin: 30px 1rem;
 	margin-bottom: 2em;
+	text-align: center;
 }
 
 .box h2 {
 	font-size: 2em;
 	font-family: "nothing you could do";
 	margin: 40px auto;
+	text-align: center;
 }
 
 .box1 {
