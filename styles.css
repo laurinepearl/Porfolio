@@ -31,6 +31,9 @@ header {
 	color: black;
 	backdrop-filter: blur(12px);
 	font-family: "Poppins", sans-serif;
+	position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar__logo {
