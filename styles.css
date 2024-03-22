@@ -15,11 +15,11 @@ html {
 
 /* Navbar */
 header {
-	position: sticky;
+	/*position: sticky;
 	top: 0;
 	height: 4rem;
 	z-index: 10;
-	width: 100%;
+	width: 100%;*/
 }
 
 .navbar {
@@ -29,7 +29,7 @@ header {
 	padding: 20px 0 20px 0;
 	font-size: 1.3rem;
 	color: black;
-	backdrop-filter: blur(12px);
+	background-color: white;
 	font-family: "Poppins", sans-serif;
 	position: fixed;
     width: 100%;
