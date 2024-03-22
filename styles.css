@@ -15,11 +15,9 @@ html {
 
 /* Navbar */
 header {
-	/*position: sticky;
 	top: 0;
 	height: 4rem;
-	z-index: 10;
-	width: 100%;*/
+	width: 100%;
 }
 
 .navbar {
