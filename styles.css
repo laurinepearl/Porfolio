@@ -36,7 +36,6 @@ header {
 
 .navbar__logo {
 	font-size: 1.6rem;
-	font-family: "nothing you could do";
 	margin-left: 3rem;
 }
 
@@ -291,9 +290,9 @@ span {
 }
 
 .images .blob {
-	top: 45%;
+	top: 48%;
 	left: 50%;
-	width: 90%;
+	width: 91%;
 	position: absolute;
 	max-height: 590px;
 	max-width: 600px;
