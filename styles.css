@@ -241,9 +241,9 @@ header {
 .moi h1 {
 	font-size: 50px;
 	color: #212121;
-	font-family: "poppins";
+	font-family: "roboto condensed";
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 1rem;
 }
 
 span {
@@ -340,9 +340,9 @@ span {
 .about-text h1 {
 	color: #fff;
 	font-size: 3em;
-	font-family: "poppins";
+	font-family: "roboto condensed";
 	font-weight: bolder;
-	margin-bottom: 20px;
+	margin-bottom: 1rem;
 }
 
 .about-text h5 {
@@ -361,12 +361,14 @@ span {
 
 .about-text p {
 	color: #fff;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 15px;
-	font-family: "poppins";
-	text-align: justify;
-	margin-bottom: 55px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    font-family: "roboto condensed";
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
 }
 
 .comp {
@@ -434,18 +436,15 @@ img {
 
 .box h1 {
 	font-size: 3em;
-	font-family: "poppins";
-	font-weight: bold;
-	margin: 30px 1rem;
-	margin-bottom: 1em;
-	text-align: center;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    text-align: center;
 }
 
 .box h2 {
 	font-size: 2em;
-	font-family: "nothing you could do";
-	margin: 40px auto;
-	text-align: center;
+    font-family: "nothing you could do";
+    text-align: center;
 }
 
 .box1 {
@@ -462,22 +461,40 @@ img {
     background-color: #787BCE;
     color: white;
     padding: 20px; /* le container du texte explicatif */
+    margin-bottom: 2rem;
 } 
 
+.manga h3 {
+	margin-bottom: 1.25rem;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 20px;
+}
 .manga p {
-	font-family: "Poppins";
-	font-size: 15px;
-	line-height: 28px;
-	text-align: justify;
-  	margin-bottom: 30px;	/* texte exmplicatif */
+	font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.mission {
+	list-style: none;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+	margin-bottom : 1rem;
+}
+
+.sousmission {
+	font-weight: 500;
 }
 
 .siteweb {
     text-decoration: none;
     font-weight: bold;
-	margin-bottom: 20px;
     color: #fff;
-    font-family: "poppins";
+    font-family: "roboto condensed";
     display: inline-block;  /* Bouton voir plus dans la section association */
 }
 
