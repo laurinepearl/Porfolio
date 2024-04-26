@@ -370,14 +370,13 @@ span {
     text-align: justify;
     margin-bottom: 1.5rem;
 }
-}
 
 .comp {
 	font-size: 2em;
     font-family: "nothing you could do";
 	color: #fff;
-	
 }
+
 .carousel-container {
   position: relative;
   overflow: hidden;
