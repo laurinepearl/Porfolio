@@ -267,6 +267,7 @@ span {
 	color: #555;
 	line-height: 22px;
 	font-family: "roboto condensed";
+	font-size: 16px;
 }
 
 .moi a {
@@ -363,7 +364,7 @@ span {
 .about-text p {
 	color: #fff;
     line-height: 28px;
-    font-size: 15px;
+    font-size: 16px;
     font-family: "roboto condensed";
     font-weight: 300;
     text-align: justify;
@@ -475,7 +476,7 @@ img {
 .manga p {
 	font-family: 'Roboto Condensed';
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 28px;
     text-align: center;
     margin-bottom: 1rem;
