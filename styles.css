@@ -352,7 +352,7 @@ span {
 	font-size: 22px;
 	font-family: "nothing you could do";
 	font-weight: bolder;
-	margin-bottom: 40px;
+	margin-bottom: 1.5rem;
 	text-transform: capitalize;
 }
 
@@ -362,7 +362,6 @@ span {
 
 .about-text p {
 	color: #fff;
-    letter-spacing: 1px;
     line-height: 28px;
     font-size: 15px;
     font-family: "roboto condensed";
