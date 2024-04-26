@@ -29,7 +29,7 @@ header {
 	font-size: 1.3rem;
 	color: black;
 	background-color: white;
-	font-family: "Poppins", sans-serif;
+	font-family: "roboto condensed";
 	position: fixed;
     width: 100%;
     z-index: 1;
@@ -38,6 +38,7 @@ header {
 .navbar__logo {
 	font-size: 1.6rem;
 	margin-left: 3rem;
+	font-family: "roboto condensed";
 }
 
 .navbar__links {
@@ -265,7 +266,7 @@ span {
 .moi p {
 	color: #555;
 	line-height: 22px;
-	font-family: "poppins";
+	font-family: "roboto condensed";
 }
 
 .moi a {
@@ -274,7 +275,7 @@ span {
 	text-decoration: none;
 	font-weight: bold;
 	color: #fff;
-	font-family: "poppins";
+	font-family: "roboto condensed";
 	display: inline-block;
 	margin: 30px 0;
 	border-radius: 5px;
@@ -439,6 +440,7 @@ img {
     font-family: 'Roboto Condensed';
     font-weight: 600;
     text-align: center;
+	margin-bottom: 2 rem;
 }
 
 .box h2 {
@@ -449,6 +451,7 @@ img {
 
 .box1 {
 	width: 100%;
+	margin-top: 2rem;
 }
 
 .manga {
