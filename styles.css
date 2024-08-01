@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url ('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 html {
 	scroll-behavior: smooth;
@@ -341,7 +342,7 @@ span {
 .about-text h1 {
 	color: #fff;
 	font-size: 3em;
-	font-family: "roboto condensed";
+	font-family: "Mulish";
 	font-weight: bolder;
 	margin-bottom: 1rem;
 }
