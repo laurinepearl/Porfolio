@@ -31,7 +31,7 @@ header {
 	color: black;
 	background-color: white;
 	font-family: "Mulish";
-	font-weight: 300;
+	font-weight: 400;
 	position: fixed;
     width: 100%;
     z-index: 1;
@@ -41,6 +41,7 @@ header {
 	font-size: 1.6rem;
 	margin-left: 3rem;
 	font-family: "Mulish";
+	font-weight: 400;
 }
 
 .navbar__links {
@@ -245,7 +246,7 @@ header {
 	font-size: 50px;
 	color: #212121;
 	font-family: "Mulish";
-	font-weight: bold;
+	font-weight: bolder;
 	margin-bottom: 1rem;
 }
 
@@ -268,7 +269,7 @@ span {
 .moi p {
 	color: #555;
 	font-family: "Mulish";
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 16px;
 }
 
@@ -276,7 +277,7 @@ span {
 	background: #efb000;
 	padding: 10px 18px;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: bolder;
 	color: #fff;
 	font-family: "Mulish";
 	display: inline-block;
