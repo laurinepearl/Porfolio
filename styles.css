@@ -249,7 +249,7 @@ header {
 
 .moi h1 {
 	font-size: 50px;
-	color: ##504139;
+	color: #504139;
 	font-family: "Mulish";
 	font-weight: bolder;
 	margin-bottom: 1rem;
@@ -445,6 +445,7 @@ img {
 	font-size: 3em;
     font-family: "Mulish";
     font-weight: 600;
+	color: #504139;
     text-align: center;
 	margin-bottom: 1rem;
 }
@@ -452,6 +453,7 @@ img {
 .box h2 {
 	font-size: 2em;
     font-family: "nothing you could do";
+	color: #504139;
     text-align: center;
 }
 
@@ -553,18 +555,18 @@ div .container2 p {
     bottom: 20px;
     right: 20px;
     z-index: 99;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
     outline: none;
     background-color: #5B8C17;
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding: 10px;
     border-radius: 50%;
 }
 
 #scrollToTopBtn:hover {
-    background-color: #4B4FBE;
+    background-color: #5B8C17;
 }
 
 
