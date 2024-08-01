@@ -83,7 +83,7 @@ header {
 		height: 100vh;
 		position: absolute;
 		top: 5rem;
-		background: rgb(95, 98, 197);
+		background: #FFFEF8;
 		transition: all .5s ease-in-out;
 		z-index: 10;
 	}
@@ -114,7 +114,6 @@ header {
 		display: block;
 		padding: 1rem;
 		font-size: 1.6rem;
-		color: var(--navbar-color);
 		transition: all .4s ease-in-out;
 	}
 
@@ -249,9 +248,9 @@ header {
 
 .moi h1 {
 	font-size: 50px;
-	color: #504139;
+	color: #5B8C17;
 	font-family: "Mulish";
-	font-weight: bolder;
+	font-weight: 600;
 	margin-bottom: 1rem;
 }
 
@@ -566,7 +565,7 @@ div .container2 p {
 }
 
 #scrollToTopBtn:hover {
-    background-color: #5B8C17;
+    background-color: #456911;
 }
 
 
