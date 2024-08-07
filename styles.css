@@ -339,11 +339,11 @@ span {
 
 .main {
 	margin: 2rem;
-	gap: 2rem;
+	gap: 7rem;
 	flex-wrap: wrap;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 
 .about-text h1 {
