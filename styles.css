@@ -468,6 +468,8 @@ img {
     text-align: center;
     color: #504139;
     padding: 20px; /* le container du texte explicatif */
+	padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 2rem;
 } 
 
